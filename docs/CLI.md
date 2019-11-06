@@ -202,7 +202,7 @@ Run all tests affected by file changes in the last commit made. Behaves similarl
 
 ### `--listTests`
 
-Lists all tests as JSON that Jest will run given the arguments, and exits. This can be used together with `--findRelatedTests` to know which tests Jest will run.
+Lists all tests that Jest will run given the arguments, and exits. Can be used together with `--findRelatedTests` to know which tests Jest will run. Can be used together with `--json`.
 
 ### `--logHeapUsage`
 
